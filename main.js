@@ -57,7 +57,7 @@ function addNota(nota) {
 function atualizaMedia() {
     const media = calculaMediaFinal();
 
-    document.getElementById('media-final-valor').innerHTML = media;
+    document.getElementById('media-final-valor').innerHTML = media.toFixed(2);
 
     const resultado = document.getElementById('media-final-resultado');
 
