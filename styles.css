@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(960px, 100% - 4rem);
+    margin-block-end: 3rem;
+}
+
+header .container {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin-block-start: 100px;
+    margin-block-end: 50px;
+}
+
+header .container h1 {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+header .container img {
+    height: 36px;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}
+
+form input,
+form button {
+    padding: .3rem;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #FFF;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+form button {
+    background-color: #009432;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    
+}
+
+table th {
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    padding-block: 1rem;
+    text-align: left;
+}
+
+table td {
+    font-size: 18px;
+    padding-block: .5rem;
+    border-block-end: 1px solid rgba(0, 0, 0, .2);
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    width: max-content;
+    padding: .5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: .25rem;
+}
+
+.resultado-aprovado {
+    background-color: #009432;
+}
+
+.resultado-reprovado {
+    background-color: red;
+}
+
+
+
+
+
+
+
